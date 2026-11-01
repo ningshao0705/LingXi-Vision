@@ -1,0 +1,18 @@
+# LingXi Vision firmware release
+entry=main.py
+total_lines=1627
+__init__.py        7c6adfd1ab48e173206ee40a7b69f824e80aac7b6a71e04bf393f5cc9aa39fa4
+app.py             c5f6a0bba32d721030499a6ee716c3776a14373f626c00c2991dcbc0bc975b70
+compat.py          1fcd4792eabb8633dbda37395f2c3fb64fc7a7c9fe4301ef5c8e7c2f3e4ba97a
+config.py          2ab3e7595f7a5cfb0e359e69f0f17319796e53c36dca08fe3d10acf5c5d043aa
+events.py          020e0e2eab82dc5e7f4cfb413e1c604d258bc27ff80bd7775a27d2332b745301
+geometry.py        dbe413cf061bd1025febb3ef0e901b831b94990240265a045913a0512ca21d5e
+hal.py             1307ba957bb293d63b5419377bc188d4c12f3c27e704f1b026e0b200e2bdca62
+keypoints.py       d157b87547c368f916e6469df759d9d43c96c7e92f8fca904b3ffe86765823af
+logger.py          c92c105d4ce8797ee06f3c269fef1d66a06091488de96cf5b3bd812168e74603
+pose.py            15c878f240f1273678eded25472ddb5547c2c928de4a599f41e0c85011f69f9d
+proto.py           9a8363f25eb5d1e2bf5b8f9ec6ae033288cae3f145149e4dbbae9019e7e546db
+render.py          ef6f3f871e98713bd098ecd045ad6fa91bf0202d4b71623951883102a76fa167
+rules.py           30477e93e0d89403491a54a7a592128b85d0f10d39e75bc251d3e9f870b0dee7
+score.py           e89e265430f463846d7a37135841b0f039cdcbbaf5cf230b8635c6bc7652d20f
+selfcheck.py       033fa52b64aefac7009aaf30fe8e8caa9a8026a8ee7e6073964e0bf4c3132737
