@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.venv/
+venv/
+
+# 构建产物
+dist/
+build/
+*.mpy
+
+# 采集数据与日志
+capture/
+*.csv
+*.jsonl
+!tests/**/*.csv
+
+# 固件与模型（体积大，不入库）
+*.hex
+*.bin
+*.tflite
+*.pack
+
+# 编辑器与系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

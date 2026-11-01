@@ -1,0 +1,23 @@
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+Copyright 2026 灵犀智眸 LingXi Vision Project
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+---
+
+本项目中姿态解码部分改编自 RT-Thread 官方示例工程
+sdk-bsp-ra8p1-titan-mini（Apache-2.0, Arm Limited），
+模型权重遵循原始模型许可，详见官方模型包 licenses/ 目录。

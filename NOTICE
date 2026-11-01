@@ -1,0 +1,33 @@
+灵犀智眸 LingXi Vision
+Copyright 2026 LingXi Vision 项目组
+
+本作品为 2026 RT-Thread 嵌入式大赛参赛项目，基于 RT-Thread 实时操作
+系统与瑞萨 RA8P1 Titan Board Mini 开发板实现。
+
+第三方组件说明
+--------------
+
+1. RT-Thread
+   本作品运行于 RT-Thread 实时操作系统之上，使用其线程调度、IPC、
+   设备驱动框架、DFS 虚拟文件系统与 FinSH 命令行组件。
+   RT-Thread 遵循 Apache-2.0 许可，详见 https://www.rt-thread.io
+
+2. OpenMV / MicroPython
+   板端应用以 MicroPython 编写，运行在 BSP 提供的 OpenMV 运行时之上，
+   使用其 csi（摄像头）、ml（NPU 推理）、image（图像绘制）、machine
+   （LED/UART）等模块。MicroPython 遵循 MIT 许可。
+
+3. 姿态模型
+   端侧推理所用模型文件（yolov8n_pose_192_u55_256.tflite）来自
+   RT-Thread Studio 官方 SDK BSP 示例模型包，用于本项目的非商业
+   教学演示用途。本项目在其之上做了课堂场景的通道裁剪、关键点
+   蒸馏微调与 INT8 量化适配。
+
+4. 字体与图标
+   Web 控制台使用系统字体与开源图标字体，未引入商业字体。
+
+声明
+----
+
+本项目采集与处理的全部图像均在端侧完成推理，不上传、不存储原始
+画面，仅输出结构化行为事件。涉及人脸与身份的信息一概不采集。
